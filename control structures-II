@@ -11,3 +11,48 @@ print(x)
 for i in range(1,n):
     x=x+i*5
     print(x)
+    
+#series-3
+n=int(input())
+for i in range(1,n+1):
+    n=3**i
+    print(n,end=' ')
+    
+#series-4
+n=int(input())
+for i in range(0,n):
+    a=((3**i)/2)
+    print(a)
+    
+#series-5
+n=int(input())
+x=11
+for i in range(1,n+1):
+    a=(x**2)
+    print(a)
+    x=x+4
+    
+#series-6
+n=int(input())
+for i in range(1,n+1):
+    if (i%2!=0):
+        print((i**2)-1)
+    else:
+        print((i**2)-2)
+        
+#series-7
+n=int(input())
+x=1
+print(x)
+y=2.0
+print(y)
+for i in range(1,n-1):
+    if(i%2!=0):
+        x=x*3.0
+        print(x)
+    else:
+        if(i%2==0):
+            y=y*3.0
+            print(y)
+            
+#series-8
